@@ -1,7 +1,7 @@
 
 # Password Manager
 
-The pasdsword manager is a Python project designed to securely store and manage passwords for various accounts. It uses excryption to protect sensitive information and provides dfeatures such as password generation and storage.
+The password manager is a Python project designed to securely store and manage passwords for various accounts. It uses excryption to protect sensitive information and provides dfeatures such as password generation and storage.
 
 ## Features
 
@@ -36,7 +36,7 @@ The pasdsword manager is a Python project designed to securely store and manage 
      - Retrieve password for an account: `get_password(account)`
 
 ## Example
-`
+```
 from password_manager import PasswordManager
 
 # Initialize password manager with master password
@@ -55,8 +55,7 @@ if retrieved_password:
     print("Retrieved Password:", retrieved_password)
 else:
     print("Account not found")
-
-`
+```
 
 ## License
 
